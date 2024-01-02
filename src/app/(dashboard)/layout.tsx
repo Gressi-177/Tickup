@@ -6,7 +6,7 @@ const DashboardLayout: React.FC<PropsWithChildren> = ({ children }) => {
   return (
     <div>
       <DashboardHeader />
-      <div className="flex mt-16 py-4">
+      <div className="flex mt-16 py-6">
         <DashboardSidebar />
         <main className="w-full h-screen flex items-center justify-center">
           {children}
